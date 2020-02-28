@@ -13,7 +13,7 @@ public class test {
 	{
 		Calculator c=new Calculator();
 		int result=c.add(2,3);
-		assertTrue("true",result>0);
+		assertTrue(result>0);
 	}
 	
 	@Test
